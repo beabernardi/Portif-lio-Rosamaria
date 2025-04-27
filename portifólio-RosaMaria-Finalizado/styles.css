@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor-principal: #ffffff;
+    --cor-secundaria: #01b42e;
+    --cor-destaque: #00ed18;
+}
+
+.Top2 {
+    color: white;
+   }
+
+
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+.btn-link {
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
+
+.lead{
+    color: var(--cor-principal);
+}
+
+a, .btn-link:hover {
+    color: yellow;
+}
+
+a:hover{
+    color: var(--cor-destaque);
+}
+
+body {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    background-image: url(img/Fundo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
